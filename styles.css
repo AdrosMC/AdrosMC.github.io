@@ -8,6 +8,7 @@ body {
 	background-color: #1d1d1d;
 	font-size: 18px;
 	text-align: center;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 h1,
 h2,
@@ -27,10 +28,14 @@ h2 {
 	font-size: 1.5em;
 }
 ul {
+	padding: 0 2em 0 2em;
+	text-align: left;
 	list-style-type: square;
 }
 ol {
-	list-style-type: lower-alpha;
+	padding: 0 2em 0 2em;
+	text-align: left;
+	list-style-type: decimal;
 }
 a {
 	text-decoration: none;
@@ -40,7 +45,52 @@ p {
 	padding: 20px 0 20px 10px;
 	margin-bottom: 20px;
 }
-div {
+.page {
+	width: 600px;
+	margin: 00 auto;
+}
+.synopsis {
+	text-align: center;
+	color: #7e8184;
+	font-style: italic;
+	padding: 0.5em;
+	border: 1px solid;
+}
+.synopsis em {
+	font-style: normal;
+}
+.hookup {
+	font-style: italic;
+	background-color: #03a5c2;
+}
+
+a:link {
+	color: blue;
+	text-decoration: none;
+}
+a:visited {
+	color: purple;
+}
+a:hover {
+	color: aqua;
+	text-decoration: underline;
+	font-size: 1.2em;
+}
+a:active {
+	color: red;
+}
+a:visited:hover {
+	color: orange;
+}
+a:visited:active {
+	color: red;
+}
+
+.button :link,
+.button :visited {
+	display: block;
+	text-decoration: none;
+
 	color: #fff;
 	background-color: #5995da;
 	font-weight: bold;
@@ -49,6 +99,16 @@ div {
 	border: 2px solid #5d6063;
 	border-radius: 5px;
 
-	width: 200px;
+	width: 400px;
 	margin: 20px auto;
+}
+.button :hover,
+.button :visited :hover {
+	color: #fff;
+	background-color: #5995da;
+}
+.button:active,
+.button:visited:active {
+	color: #fff;
+	background-color: #5995da; /* Blue */
 }
