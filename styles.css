@@ -1,7 +1,13 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
 body {
 	color: #afafaf; /* Light gray*/
 	background-color: #1d1d1d;
 	font-size: 18px;
+	text-align: center;
 }
 h1,
 h2,
@@ -13,6 +19,9 @@ h6 {
 }
 h1 {
 	font-size: 2em;
+	padding: 1em 0.5em;
+	background-color: #333333;
+	border: 1px solid #afafaf;
 }
 h2 {
 	font-size: 1.5em;
@@ -28,4 +37,18 @@ a {
 }
 p {
 	text-align: left;
+	padding: 20px 0 20px 10px;
+	margin-bottom: 20px;
+}
+div {
+	color: #fff;
+	background-color: #5995da;
+	font-weight: bold;
+	padding: 20px;
+	text-align: center;
+	border: 2px solid #5d6063;
+	border-radius: 5px;
+
+	width: 200px;
+	margin: 20px auto;
 }
