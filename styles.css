@@ -49,7 +49,7 @@ p {
 	width: 600px;
 	margin: 00 auto;
 }
-.synopsis {
+p:first-of-type {
 	text-align: center;
 	color: #7e8184;
 	font-style: italic;
@@ -112,3 +112,21 @@ a:visited:active {
 	color: #fff;
 	background-color: #5995da; /* Blue */
 }
+.call-to-action:link,
+.call-to-action:visited {
+  font-style: italic;
+  background-color: #EEB75A;     /* Yellow */
+}
+
+.call-to-action:hover,
+.call-to-action:visited:hover {
+  background-color: #F5CF8E;     /* Light yellow */
+}
+
+.call-to-action:active,
+.call-to-action:visited:active {
+  background-color: #EEB75A;     /* Yellow */
+}
+ p:last-of-type{
+	margin-bottom: 50px;
+} 
