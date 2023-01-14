@@ -200,3 +200,19 @@ a:hover {
 .features-menu {
 	display: none;
 }
+@media only screen and (max-width: 400px) {
+	body {
+		background-color: #03a5c2;
+	}
+	.page {
+		display: none;
+	}
+}
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+}
+@media only screen and (min-width: 961px) {
+	.page {
+		width: 960px;
+		margin: 0 auto;
+	}
+}
