@@ -11,9 +11,13 @@ body {
 	text-align: left;
 	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 	justify-content: center;
+	align-content: center;
+	flex-direction: column;
 }
 .top-header {
 	position: fixed;
+	top: 0;
+	left: 0;
 	display: flex;
 	justify-content: space-between;
 	width: 100%;
@@ -23,11 +27,12 @@ body {
 }
 .page {
 	display: block;
-	width: 80%;
+	width: 70%;
+	margin: 0% 10% 0% 20%;
 }
 .divider {
 	width: 100%;
-	height: 15%;
+	height: 50px;
 }
 .menu {
 	display: flex;
@@ -93,6 +98,7 @@ body {
 	height: fit-content;
 	padding: 20px 20px 0px 20px;
 	background-color: gray;
+	justify-content: center;
 }
 
 .inner-article {
@@ -106,6 +112,23 @@ body {
 	margin: 5px;
 	display: flex;
 	flex-direction: column;
+}
+.projects {
+	display: flex;
+	justify-content: center;
+	width: 80%;
+}
+.container {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	height: fit-content;
+	padding: 20px 20px 0px 20px;
+	background-color: gray;
+}
+.project {
+	display: block;
+	width: 32%;
 }
 
 .bottom-footer {
